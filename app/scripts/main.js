@@ -57,6 +57,7 @@
                     // pick a value between 0 and 10, based on the percent the
                     // video element is in the viewport
                     var blurValue = 10 - Math.round(status.precentInViewport * 10);
+                    // console.log(blurValue);
                     data.fc.effect.defaultValues.amount = blurValue;
                 },
                 unblurVideo: function() {
